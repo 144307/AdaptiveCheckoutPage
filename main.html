@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet/less" type="text/css" href="./resetcss.css" />
+    <link rel="stylesheet/less" type="text/css" href="./main.less" />
+    <title>Document</title>
+  </head>
+  <body class="body">
+    <h1 class="heading">Checkout</h1>
+    <div class="background"></div>
+    <section class="window">
+      <div class="summary">
+        <ol class="items">
+          <li class="item">
+            <div class="image-wrapper">
+              <img
+                class="image"
+                src="./resources/Gold@2x.png"
+                alt="iPhone Golden"
+              />
+            </div>
+            <div class="info-gird">
+              <div class="info__name">iPhone 12 Pro</div>
+              <div class="info__price">$999.00</div>
+              <div class="info__type">Golden</div>
+              <div class="info__amount">x 1</div>
+              <img class="info__close" src="./resources/close-icon.svg" />
+            </div>
+          </li>
+          <li class="item">
+            <div class="image-wrapper">
+              <img
+                class="image"
+                src="./resources/Gold@2x.png"
+                alt="iPhone Golden"
+              />
+            </div>
+            <div class="info-gird">
+              <div class="info__name">iPhone 12 Pro</div>
+              <div class="info__price">$999.00</div>
+              <div class="info__type">Golden</div>
+              <div class="info__amount">x 1</div>
+              <img class="info__close" src="./resources/close-icon.svg" />
+            </div>
+          </li>
+          <li class="item">
+            <div class="image-wrapper">
+              <img
+                class="image"
+                src="./resources/Gold@2x.png"
+                alt="iPhone Golden"
+              />
+            </div>
+            <div class="info-gird">
+              <div class="info__name">iPhone 12 Pro</div>
+              <div class="info__price">$999.00</div>
+              <div class="info__type">Golden</div>
+              <div class="info__amount">x 1</div>
+              <img class="info__close" src="./resources/close-icon.svg" />
+            </div>
+          </li>
+        </ol>
+        <div class="coupon-input-wrapper">
+          <input
+            class="coupon-input input-field"
+            type="text"
+            value=""
+            placeholder="Enter coupon code"
+          />
+          <input
+            class="submit button-black"
+            type="button"
+            value="Apply Coupon"
+          />
+        </div>
+        <ol class="money">
+          <li class="money__line">
+            <div class="money__title">Sub total</div>
+            <div class="money__number">$2497.00</div>
+          </li>
+          <li class="money__line">
+            <div class="money__title">Sub total</div>
+            <div class="money__number">$2497.00</div>
+          </li>
+          <li class="money__line">
+            <div class="money__title">Sub total</div>
+            <div class="money__number">$2497.00</div>
+          </li>
+        </ol>
+      </div>
+      <form class="contact-information-form">
+        <h2 class="contact-information-header">Contact Information</h2>
+
+        <div class="input-wrapper">
+          <div class="information-input-wrapper">
+            <label class="information-label" for="name"
+              ><span class="label">First & Last name</span>
+              <input
+                class="information-input"
+                id="name"
+                type="text"
+                value=""
+                placeholder="Enter email address"
+              />
+            </label>
+          </div>
+          <div class="information-input-wrapper">
+            <label class="information-label" for="email"
+              ><span class="label">First & Last name</span>
+              <input
+                class="information-input"
+                id="email"
+                type="text"
+                value=""
+                placeholder="Enter email address"
+              />
+            </label>
+          </div>
+          <div
+            class="information-input-wrapper information-input-wrapper_two-columns"
+          >
+            <div class="filler">
+              <label class="information-label" for="country"
+                ><span class="label">First & Last name</span>
+                <select class="select information-input">
+                  <option class="select-option" value="finland">Finland</option>
+                  <option class="select-option" value="something">
+                    Something
+                  </option>
+                </select>
+                <!-- <input
+                  class="information-input"
+                  id="country"
+                  type="text"
+                  value=""
+                  placeholder="Enter email address"
+                /> -->
+              </label>
+            </div>
+            <div class="filler">
+              <label class="information-label" for="postalcode"
+                ><span class="label">First & Last name</span>
+                <input
+                  class="information-input"
+                  id="postalcode"
+                  type="text"
+                  value=""
+                  placeholder="Enter email address"
+                />
+              </label>
+            </div>
+          </div>
+          <!-- <div class="submit-wrapper"> -->
+          <input
+            class="submit-form button-black"
+            type="submit"
+            value="Continue"
+          />
+          <!-- </div> -->
+        </div>
+      </form>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/less"></script>
+  </body>
+</html>
